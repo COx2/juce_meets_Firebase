@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# Build directory
+/Build
+
+# Ignore Firebase
+/External/firebase_cpp_sdk/*
+!/External/firebase_cpp_sdk/.gitkeep
